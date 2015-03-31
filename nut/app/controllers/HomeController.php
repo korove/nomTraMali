@@ -22,7 +22,7 @@ class HomeController extends BaseController {
 
 	public function getHome(){
 		Log::info('#################### getHome ####################');
-		return View::make('index');
+		return View::make('homeContent');
 		// return "getRegister method";
 	}
 

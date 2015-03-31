@@ -23,8 +23,8 @@
        @yield('content')
     </div>
      
-    <div class="sidebar">
-       @yield('sidebar')
+    <div class="footer">
+       @include('./footer')
     </div>
   </body>
 </html>

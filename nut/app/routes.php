@@ -20,6 +20,7 @@ Route::get('h', function()
 // {
 // 	return View::make('index');
 // });
-Route::get('/', 'HomeController@getRegister');
+//Route::get('/', 'HomeController@getRegister');
+Route::get('/', 'HomeController@getHome');
 Route::get('i', 'HomeController@getHome');
 Route::get('register', 'HomeController@getRegister');
