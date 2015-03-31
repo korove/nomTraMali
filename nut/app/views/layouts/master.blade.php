@@ -16,7 +16,7 @@
     <nav class="navigation">
       @section('navigation')
         <a href="/">Home</a>
-        <a href="/about">About</a>
+        <a href="/about">About2</a>
       @show
     </nav>
 
